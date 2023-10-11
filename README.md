@@ -5,6 +5,7 @@
 ## Table of Contents
 * [Problem Statement](#problem-statement)
 * [Project Pipeline](#project-pipeline)
+* [Observations](#observations)
 * [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 
@@ -63,6 +64,13 @@ You are required to build a multiclass classification model using a custom convo
   - Write your findings after the model fit, see if the issues are resolved or not?
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+## Observations :
+- As the training accuracy increases linearly over time, where as the validation accuracy increases in training process.
+- As the training loss decreases with epochs the validation loss also decreases.
+- The plots show that training accuracy 92% and validation accuracy around 81% .
+- The difference in accuracy between training and validation accuracy is very less
+- Class rebalancing not only reduced overfitting it also improved the accuracy from 48% to 81%.
 
 ## Technologies Used
 - pandas - 1.3.4
